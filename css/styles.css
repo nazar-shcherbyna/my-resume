@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+a, button {
+    transition: all .3s ease-in-out 
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.container {
+    max-width: 80%;
+    padding: 0 15px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #e2f81c 45%, #177cff 70%);
+}
+
+.point {
+    display: flex;
+}
+
+.about-me {
+    text-align: center;
+    padding: 0 10px;
+    margin: 20px 0;
+}
+
+.text {
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+.link {
+    flex-direction: column;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    list-style: none;
+    background-image: linear-gradient(to bottom, #18ff71 20%, #70f3e1 80%);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
