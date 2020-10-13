@@ -48,8 +48,12 @@ ul {
 .links {
     list-style: none;
     background-image: linear-gradient(to bottom, #18ff71 20%, #70f3e1 80%);
-    padding: 10px;
     margin: 10px;
     text-align: center;
+}
 
+.links a {
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
 }
