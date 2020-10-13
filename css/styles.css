@@ -10,14 +10,19 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Commissioner', sans-serif;
+    background-color: #5f5d5d;
 }
 
 .container {
     max-width: 80%;
-    padding: 0 15px;
+    padding: 10px 15px;
     margin: 0 auto;
-    min-height: 100vh;
-    background-image: linear-gradient(to bottom, #e2f81c 45%, #177cff 70%);
+    background-color: #e98c85;
+}
+
+.photo {
+    margin: 15px;
+    box-shadow: 0 0 35px rgba(0,0,0, .9);
 }
 
 .point {
@@ -42,18 +47,25 @@ body{
 
 ul {
     padding: 0;
-    margin: 0;
+    margin: 10px;
 }
 
 .links {
     list-style: none;
-    background-image: linear-gradient(to bottom, #18ff71 20%, #70f3e1 80%);
-    margin: 10px;
+    background-color: #fff;
     text-align: center;
+    padding: 10px;
+    margin: 10px;
 }
 
 .links a {
     width: 100%;
     display: inline-block;
     padding: 10px;
+}
+
+.my-work {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
 }
