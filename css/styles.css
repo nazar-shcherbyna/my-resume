@@ -21,18 +21,25 @@ body{
 }
 
 .photo {
+    font-size: 0;
     margin: 15px;
     box-shadow: 0 0 35px rgba(0,0,0, .9);
 }
 
 .point {
     display: flex;
+    align-items: flex-start;
 }
 
 .about-me {
     text-align: center;
     padding: 0 10px;
     margin: 20px 0;
+}
+
+.inst {
+    font-weight: 600;
+    align-self: center;
 }
 
 .text {
@@ -54,18 +61,22 @@ ul {
     list-style: none;
     background-color: #fff;
     text-align: center;
-    padding: 10px;
     margin: 10px;
 }
 
 .links a {
     width: 100%;
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
 }
 
 .my-work {
     text-align: center;
     font-size: 30px;
     font-weight: 700;
+}
+
+.fa-instagram {
+    font-size: 30px;
+    color: #fff;
 }
