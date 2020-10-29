@@ -43,7 +43,6 @@ body{
 }
 
 .text {
-    text-align: center;
     padding: 10px;
     margin: 50px;
 }
@@ -62,12 +61,22 @@ ul {
     background-color: #fff;
     text-align: center;
     margin: 10px;
+    border-radius: 5px;
 }
 
 .links a {
     width: 100%;
     display: inline-block;
     padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+
+.links a:hover {
+    transition: all .3s ease;
+    box-shadow: 0 0 20px rgba(0,0,0, .9);
 }
 
 .my-work {
