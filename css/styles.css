@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -6,86 +8,88 @@ a, button {
     transition: all .3s ease-in-out 
 }
 
-body{
+html {
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bgc {
+    background: url(../img/bgc.jpg) 0 0/cover no-repeat;
+    min-height: 100vh;
+}
+
+.cahee {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.cahee h1 {
+    margin: 0;
+    text-align: center;
+    padding: 90px 0 40px;
+    font-weight: 700;
+    font-size: 9rem;
+}
+
+.cahee .h1 {
+    font-weight: 200;
+    font-size: 1.7rem;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cahee__form {
+    display: flex;
+    margin: 40px 0 0 0;
+}
+
+.cahee__input {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+}
+
+.cahee__input input {
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    color: #fff;
+    background-color: #00c4c4;
+    opacity: .5;
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 15px;
+}
+
+.cahee__input input::placeholder {
+    color: rgba(255, 255, 255, 1);
+}
+
+.cahee__input input:active,
+.cahee__input input:focus {
+    opacity: 1;
+    border-left: 5px solid #355b82;
+}
+
+#text-more {
+    height: 250px;
+}
+
+.cahee__info {
+    margin: 0 0 0 170px;
+}
+
+.cahee__info h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
     padding: 0;
     margin: 0;
-    font-family: 'Commissioner', sans-serif;
-    background-color: #5f5d5d;
 }
 
-.container {
-    max-width: 80%;
-    padding: 10px 15px;
-    margin: 0 auto;
-    background-color: #e98c85;
-}
-
-.photo {
-    font-size: 0;
-    margin: 15px;
-    box-shadow: 0 0 35px rgba(0,0,0, .9);
-}
-
-.point {
-    display: flex;
-    align-items: flex-start;
-}
-
-.about-me {
-    text-align: center;
-    padding: 0 10px;
-    margin: 20px 0;
-}
-
-.inst {
-    font-weight: 600;
-    align-self: center;
-}
-
-.text {
-    padding: 10px;
-    margin: 50px;
-}
-
-.link {
-    flex-direction: column;
-}
-
-ul {
-    padding: 0;
-    margin: 10px;
-}
-
-.links {
-    list-style: none;
-    background-color: #fff;
-    text-align: center;
-    margin: 10px;
-    border-radius: 5px;
-}
-
-.links a {
-    width: 100%;
-    display: inline-block;
-    padding: 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #000;
-}
-
-.links a:hover {
-    transition: all .3s ease;
-    box-shadow: 0 0 20px rgba(0,0,0, .9);
-}
-
-.my-work {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.fa-instagram {
-    font-size: 30px;
-    color: #fff;
+.cahee__info .h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 5px 0 20px;
 }
