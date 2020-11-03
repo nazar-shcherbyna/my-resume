@@ -50,7 +50,7 @@ html {
     min-width: 500px;
 }
 
-.cahee__input input {
+.cahee__input input, textarea {
     border: none;
     outline: none;
     margin-bottom: 15px;
@@ -62,7 +62,8 @@ html {
     padding: 15px;
 }
 
-.cahee__input input::placeholder {
+.cahee__input input::placeholder,
+.cahee__input textarea::placeholder {
     color: rgba(255, 255, 255, 1);
 }
 
